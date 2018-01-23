@@ -1,6 +1,6 @@
-const selectors = require('../test_data/css_selectors')
-const data = require('../test_data/test_data')
-const functions = require('../test_data/test_functions')
+const selectors = require('../support/css_selectors')
+const data = require('../support/test_data')
+const functions = require('../support/test_functions')
 
 module.exports = {
     beforeEach: browser => {
